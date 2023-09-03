@@ -29,7 +29,7 @@ with st.sidebar:
 
 
 if choice == "LOWLAW ChatBot":
-    exec(open('final-lowlaw-chatbot.py').read())
+    exec(open('/final-lowlaw-chatbot.py').read())
 
 elif choice == "LOWLAW Search":
-    exec(open('final-search.py').read())
+    exec(open('/final-search.py').read())
