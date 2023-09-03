@@ -305,12 +305,12 @@ elif choice == "LOWLAW Search":
             highlighted_text = highlighted_text.replace(term, f"<span style='background-color: yellow;'>{term}</span>")
         return highlighted_text
 
-    def load_image(img_file): # st 이미지 불러오기 함수
-        img = Image.open(img_file)
-        return img
+    # def load_image(img_file): # st 이미지 불러오기 함수
+        # img = Image.open(img_file)
+        # return img
 
     logo_file = '../image/lowlaw.png' # 로고 이미지 파일경로
-    logo_img = load_image(logo_file) # 로고 이미지 가져옴
+    # logo_img = load_image(logo_file) # 로고 이미지 가져옴
 
     # Streamlit 애플리케이션 시작
     st.header("LOWLAW :mag_right: Search")
