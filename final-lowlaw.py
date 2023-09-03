@@ -13,7 +13,7 @@ def load_image(img_file): # st 이미지 불러오기 함수
     img = Image.open(img_file)
     return img
 
-logo_file = '/image/lowlaw.png' # 로고 이미지 파일경로
+logo_file = './image/lowlaw.png' # 로고 이미지 파일경로
 logo_img = load_image(logo_file) # 로고 이미지 가져옴
 
 # sidebar
