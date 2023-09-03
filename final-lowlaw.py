@@ -56,9 +56,9 @@ if choice == "LOWLAW ChatBot":
         model = SentenceTransformer('jhgan/ko-sroberta-multitask')
         return model
 
-    def load_image(img_file): # st 이미지 불러오기 함수
-        img = Image.open(img_file)
-        return img
+    # def load_image(img_file): # st 이미지 불러오기 함수
+        # img = Image.open(img_file)
+        # return img
 
     def law_search(data): # App Search에서 참조법령 찾기
         # 검색 옵션 설정 (score 점수 내림차순 정렬, 상위 1개 결과)
@@ -181,7 +181,7 @@ if choice == "LOWLAW ChatBot":
     model = cached_model() # sentenceBERT 모델
 
     logo_file = '../image/lowlaw.png' # 로고 이미지 파일경로
-    logo_img = load_image(logo_file) # 로고 이미지 가져옴
+    # logo_img = load_image(logo_file) # 로고 이미지 가져옴
 
     # 챗봇 sidebar
     with st.sidebar:
